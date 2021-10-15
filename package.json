@@ -1,0 +1,12 @@
+{
+  "name": "bb8-team",
+  "version": "1.0.0",
+  "description": "Desafio de Bootstrap da Comunidade da Rafaella Ballerini",
+  "main": "index.html",
+  
+  "author": "@ItaloRayonne",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
