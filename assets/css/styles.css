@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+:root {
+  --primary-color: #f7b633;
+  --secondary-color: #fc4a1a;
+  --tertiary-color: #ffa540;
+  --info-color: #5398e9;
+  --success-color: #2bbc5d;
+  --title-color: #f8982c;
+  --white-color: #fff;
+  --purple-color: #be49e8;
+  --text-color: #7c7c7c;
+  --dark-gray-color: #3b3b3b;
+  --white-yellow-color: #fde5ca;
+  --button-color: #f97d26;
+}
+
+[font="redressed"] {
+  font-family: "Redressed", cursive;
+}
+
+/* ! Custom Properties */
+
+.border-info {
+  border-color: var(--info-color) !important;
+}
+
+.mb-5 {
+  margin-bottom: 135px !important;
+}
+
+.mb-4 {
+  margin-bottom: 75px !important;
+}
+
+.rounded-4 {
+  border-radius: 20px;
+}
+
+.quot-card {
+  top: 60px;
+  left: 30px;
+  font-size: 200pt;
+}
+
+.text-testemunials {
+  color: var(--title-color);
+}
+
+.text-white {
+  color: var(--white-color);
+}
+
+.border-testemunials {
+  border-color: var(--title-color);
+}
+
+.border-success {
+  border-color: var(--success-color) !important;
+}
+
+.text-info {
+  color: var(--info-color) !important;
+}
+
+.text-success {
+  color: var(--success-color) !important;
+}
+
+.bg-orange {
+  background: var(--tertiary-color) !important;
+}
+
+.custom-nav-link {
+  margin-right: 28px;
+}
+
+.custom-nav-button {
+  background: var(--button-color);
+  color: var(--white-color);
+  width: 112px;
+}
+
+.white-yellow-button {
+  color: var(--title-color);
+  background: var(--white-yellow-color);
+  margin-top: 20px;
+}
+
+.custom-typography {
+  color: var(--text-color);
+  letter-spacing: 0.2rem;
+}
+
+.separator {
+  height: 0.5px;
+  width: 100%;
+  background: var(--white-yellow-color);
+}
+
+.border-purple {
+  border-color: var(--purple-color);
+}
+
+.text-purple {
+  color: var(--purple-color);
+}

@@ -7,12 +7,18 @@
 
     <title>BB8 - Team</title>
 
-    <link rel="icon" type="image/png" href="public/favicon.png" />
+    <link rel="icon" type="image/png" href="./public/favicon.png" />
 
-    <!-- ! Linking custom CSS and Bootstrap -->
+    <!-- ! Linking Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="assets/css/starter.css" />
-    <link rel="stylesheet" href="assets/css/index.css" />
+    <!-- ! Linking custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -41,7 +47,7 @@
               >
             </li>
             <li class="nav-item">
-              <button class="btn c-nav-button">Log in</button>
+              <button class="btn custom-nav-button">Log in</button>
             </li>
           </ul>
         </div>
@@ -49,24 +55,24 @@
     </header>
     <!-- ! Header End -->
     <div class="separator"></div>
+    <!-- ! Separator -->
     <!-- ! Main Start -->
-    <main class="container-md" style="margin-top: 88px">
+    <main class="container-md" style="margin-top: 6.5rem">
       <section class="row align-items-start">
-        <div class="col justify-content-end">
-          <h1 style="color: #f8982c; line-height: normal">
+        <article class="col justify-content-end">
+          <h1 class="fs-1 lh-base" style="color: #f8982c">
             Quality for <br />
             Cheap.
           </h1>
 
-          <p class="h5 c-p" style="margin-top: 20px">
+          <p class="text-start mt-3 lh-lg custom-typography">
             Lorem ipsum dolor sit amet, consectetur <br />adipisci elit, sed
             eiusmod tempor incidunt ut <br />labore et dolore magna aliqua. Ut
             enim ad <br />minim veniam,
           </p>
           <button
-            class="btn c-nav-button"
+            class="btn custom-nav-button fw-bold"
             style="
-              font-weight: bold;
               color: #f8982c;
               background: #fde5ca;
               margin-top: 20px;
@@ -74,16 +80,16 @@
           >
             Hire Us
           </button>
-        </div>
+        </article>
 
-        <div class="col align-self-end" style="margin-right: 0">
+        <article class="col align-self-end mr-0">
           <img
             class="rounded float-end"
             src="assets/images/ilustration.svg"
             alt=""
             height="450px"
           />
-        </div>
+        </article>
       </section>
       <footer class="row align-self-center">
         <img
@@ -96,8 +102,372 @@
       </footer>
     </main>
     <!-- ! Main End -->
+    <section class="container-md bg-light py-5 my-5">
+      <article class="row align-self-center">
+        <header
+          class="col align-self-center m-2"
+          style="text-align: center; color: #515151"
+        >
+          <h1 class="fs-1 m-3">Companies that trust us</h1>
+          <p class="fs-5">
+            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
+            tempor <br />incidunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam,
+          </p>
+        </header>
+      </article>
+      <article class="row d-lg-none align-items-center">
+        <div class="col d-flex justify-content-center">
+          <img
+            clas="rounded img-fluid h-100"
+            src="assets/images/logo-7 1.svg"
+            alt=""
+          />
+        </div>
+        <div class="col d-flex justify-content-center">
+          <img
+            clas="rounded img-fluid h-100"
+            src="assets/images/logo-6 1.svg"
+            alt=""
+          />
+        </div>
+        <div class="col d-flex justify-content-center">
+          <img
+            clas="rounded img-fluid h-100"
+            src="assets/images/logo-9 1.svg"
+            alt=""
+          />
+        </div>
+        <div class="col d-flex justify-content-center">
+          <img
+            clas="rounded img-fluid h-100"
+            src="assets/images/logo-8 1.svg"
+            alt=""
+          />
+        </div>
+        <div class="col d-flex justify-content-center">
+          <img
+            clas="rounded img-fluid h-100"
+            src="assets/images/logo-24 1.svg"
+            alt=""
+          />
+        </div>
+      </article>
+      <article class="row d-none d-lg-block align-items-center">
+        <div class="col-12 d-flex justify-content-center">
+          <img
+            clas="rounded img-fluid h-100"
+            src="assets/images/logo-7 1.svg"
+            alt=""
+          />
+          <img
+            clas="rounded img-fluid h-100"
+            src="assets/images/logo-6 1.svg"
+            alt=""
+          />
+          <img
+            clas="rounded img-fluid h-100"
+            src="assets/images/logo-9 1.svg"
+            alt=""
+          />
+          <img
+            clas="rounded img-fluid h-100"
+            src="assets/images/logo-8 1.svg"
+            alt=""
+          />
+          <img
+            clas="rounded img-fluid h-100"
+            src="assets/images/logo-24 1.svg"
+            alt=""
+          />
+        </div>
+      </article>
+    </section>
+    <!-- ! Section End -->
+    <!-- ! Section Cards -->
+    <section class="container-md mb-5">
+      <header class="mb-4">
+        <h1 class="text-center fs-1" style="color: #f8982c">
+          More than an agency.
+        </h1>
+      </header>
+      <div class="row">
+        <!-- ! Card One Start -->
+        <div class="col-12 col-lg-4">
+          <div class="card rounded-3 p-4 border-purple h-100">
+            <div
+              class="
+                mb-3
+                border-0
+                card-header
+                d-flex
+                justify-content-between
+                align-items-center
+                bg-white
+              "
+            >
+              <h3 class="card-title text-purple lh-base">Writing</h3>
+              <img src="assets/images/card-logo-writing.svg" />
+            </div>
+            <div class="card-body">
+              <p class="card-text fs-5 text-left" style="color: #989898">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam,
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! Card Onde End -->
+        <!-- ! Card Two Start -->
+        <div class="col-12 col-lg-4">
+          <div class="card rounded-3 p-4 border-info h-100">
+            <div
+              class="
+                mb-3
+                border-0
+                card-header
+                d-flex
+                justify-content-between
+                align-items-center
+                bg-white
+              "
+            >
+              <h3 class="card-title text-info lh-base">Graphic Design</h3>
+              <img src="assets/images/card-logo-graphic-design.svg" />
+            </div>
+            <div class="card-body">
+              <p class="card-text fs-5 text-left" style="color: #989898">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam,
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ! Card Two End -->
+        <!-- ! Card Tree End -->
+        <div class="col-12 col-lg-4">
+          <div class="card rounded-3 p-4 border-success h-100">
+            <div
+              class="
+                mb-3
+                border-0
+                card-header
+                d-flex
+                justify-content-between
+                align-items-center
+                bg-white
+              "
+            >
+              <h3 class="card-title text-success lh-base">
+                Software Development
+              </h3>
+              <img src="assets/images/card-logo-software-development.svg" />
+            </div>
+            <div class="card-body">
+              <p class="card-text fs-5 text-left" style="color: #989898">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! Section Testemunials Start -->
+    <section class="container-md mb-5">
+      <header class="mb-4">
+        <h1 style="color: #f8982c">What our customers are<br />saying...</h1>
+      </header>
+
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <div
+            class="card rounded-4 p-2 border-testemunials"
+            style="max-width: 24rem"
+          >
+            <div
+              class="
+                position-absolute
+                translate-middle
+                quot-card
+                text-testemunials
+              "
+              font="redressed"
+            >
+              “
+            </div>
+            <div class="card-body">
+              <p class="card-text fs-5 text-left" style="color: #989898">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam,
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <h3 class="text-end m-3 fs-4" style="color: #3b3b3b">
+                Italo Rayone
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div
+            class="card rounded-4 p-2 border-testemunials"
+            style="max-width: 24rem"
+          >
+            <div
+              class="
+                position-absolute
+                translate-middle
+                quot-card
+                text-testemunials
+              "
+              font="redressed"
+            >
+              “
+            </div>
+            <div class="card-body">
+              <p class="card-text fs-5 text-left" style="color: #989898">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam,
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <h3 class="text-end m-3 fs-4" style="color: #3b3b3b">
+                Italo Rayone
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div
+            class="card rounded-4 p-2 border-testemunials"
+            style="max-width: 24rem"
+          >
+            <div
+              class="
+                position-absolute
+                translate-middle
+                quot-card
+                text-testemunials
+              "
+              font="redressed"
+            >
+              “
+            </div>
+            <div class="card-body">
+              <p class="card-text fs-5 text-left" style="color: #989898">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam,
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <h3 class="text-end m-3 fs-4" style="color: #3b3b3b">
+                Italo Rayone
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! Section Testemunials End -->
+
+    <!-- ! Footer Start -->
+    <!-- ! Footer End -->
+
+    <footer class="container-md bg-orange p-4 rounded">
+      <div class="d-flex justify-content-between mt-4 text-white">
+        <aside class="d-flex flex-column justify-content-start">
+          <div class="mb-3">
+            <h1 class="fw-bold">BB8 Team</h1>
+            <h2 class="fw-normal">Quality for cheap</h2>
+          </div>
+          <div
+            class="
+              d-flex
+              flex-column
+              align-items-start
+              justify-content-evenly
+              mt-4
+              h-50
+            "
+          >
+            <ul class="nav flex-column justify-content-start">
+              <li class="nav-item">
+                <a href="" class="nav-link text-white fs-5 mb-3 p-0"
+                  >Back to the top</a
+                >
+                <a href="" class="nav-link text-white fs-5 p-0 mb-1">Login</a>
+                <a href="" class="nav-link text-white fs-5 p-0">Register</a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <div class="d-flex flex-column align-items-center">
+          <img
+            class="opacity-50"
+            src="assets/images/footer-logo.svg"
+            width="136px"
+            height="278px"
+          />
+
+          <p class="mt-5 text-white">
+            &copy; 2021 BB8 Team. All rights reserved.
+          </p>
+        </div>
+        <div class="d-flex flex-column align-items-start">
+          <div class="mb-2">
+            <h2 class="fw-bold">Get in touch</h2>
+          </div>
+
+          <div
+            class="
+              d-flex
+              flex-column
+              align-items-start
+              justify-content-evenly
+              mt-4
+              h-50
+            "
+          >
+            <div>
+              <img
+                class="me-3"
+                src="assets/images/icon-phone.svg"
+                width="20px"
+                height="20px"
+              /><span>209-296-5917</span>
+            </div>
+            <div class="d-flex">
+              <img
+                class="me-3"
+                src="assets/images/icon-address.svg"
+                width="20px"
+                height="20px"
+              />
+
+              <div>
+                <span class="text-center"
+                  >2184 Frredom Lane,<br />Pine Grove<br />United States
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- ! Linking Bootstrap JS -->
-    <script type="module" src="assets/js/starter.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
