@@ -1,21 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
-:root {
-  --primary-color: #f7b633;
-  --secondary-color: #fc4a1a;
-  --tertiary-color: #ffa540;
-  --info-color: #5398e9;
-  --success-color: #2bbc5d;
-  --title-color: #f8982c;
-  --white-color: #fff;
-  --purple-color: #be49e8;
-  --text-color: #7c7c7c;
-  --dark-gray-color: #3b3b3b;
-  --white-yellow-color: #fde5ca;
-  --button-color: #f97d26;
-}
+@import "_variables.css";
 
 [font="redressed"] {
   font-family: "Redressed", cursive;
+}
+
+main {
+  background: url("../images/background.svg");
+  background-repeat: no-repeat;
 }
 
 /* ! Custom Properties */

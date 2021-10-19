@@ -1,0 +1,33 @@
+@import "_variables.css";
+
+body {
+  background: url("../images/background.svg");
+  background-repeat: no-repeat;
+}
+
+.text-gray {
+  color: var(--text-color);
+}
+
+.text-orange {
+  color: var(--button-color);
+}
+
+.mt-5 {
+  margin-top: 35px !important;
+}
+
+.mw {
+  max-width: 322px;
+}
+
+.custom-input {
+  height: 52px;
+  background: #f7f7f7;
+}
+
+.custom-button {
+  background: var(--button-color);
+  color: var(--white-color);
+  height: 52px;
+}
