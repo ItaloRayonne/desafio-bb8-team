@@ -5,11 +5,6 @@
   font-family: "Redressed", cursive;
 }
 
-main {
-  background: url("../images/background.svg");
-  background-repeat: no-repeat;
-}
-
 /* ! Custom Properties */
 
 .border-info {
